@@ -1,0 +1,29 @@
+.AddPlayer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AddPlayer__input {
+  background: #8A817C;
+  color: #F4F3EE;
+  width: 240px;
+  height: 30px;
+  margin: 20px 0;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+}
+
+.AddPlayer__submit {
+  width: 50px;
+  height: 30px;
+  padding: 5px;
+  margin-left: 10px;
+  font-size: 16px;
+  background: #bcb8b1;
+  color: #463F3A;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}

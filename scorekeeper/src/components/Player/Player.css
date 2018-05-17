@@ -1,0 +1,34 @@
+.Player {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: #8A817C;
+  color: #F4F3EE;
+  list-style: none;
+  letter-spacing: 1px;
+  margin: 5px;
+  padding: 5px;
+  width: 300px;
+}
+
+.Player__name {
+  margin-right: 15px;
+  text-transform: uppercase;
+}
+
+.Player__score,
+.Player__button {
+  display: flex;
+  justify-content: center;
+  width: 30px;
+  margin: 0 5px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.Player__button {
+  background: #bcb8b1;
+  color: #463F3A;
+  cursor: pointer;
+}
